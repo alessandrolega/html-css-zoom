@@ -12,7 +12,7 @@
 }
 
 main{
-    background-color: blue;
+    background-color: black;
     flex-grow: 1;
 }
 
@@ -30,6 +30,12 @@ footer{
     justify-content: flex-end;
 }
 
+.wrap{
+    flex-wrap: wrap;
+}
+
+/*            */
+
 .icon-cont1, .icon-cont2{
     padding-right: 10px;
     padding-top: 10px;
@@ -43,3 +49,13 @@ footer{
     color: white;
     background-color: #4A4A4A;
 }
+
+.card{
+    width: calc(100% / 7);
+
+}
+
+.card > img{
+    width: 100%;
+}
+
