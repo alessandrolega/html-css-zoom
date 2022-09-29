@@ -3,3 +3,43 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container{
+    height: 100vh;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    background-color: blue;
+    flex-grow: 1;
+}
+
+footer{
+    background-color: aquamarine;
+}
+
+/* UTILITY */
+
+.flex{
+    display: flex;
+}
+
+.f-end{
+    justify-content: flex-end;
+}
+
+.icon-cont1, .icon-cont2{
+    padding-right: 10px;
+    padding-top: 10px;
+    
+}
+
+.btn-1{
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    background-color: #4A4A4A;
+}
